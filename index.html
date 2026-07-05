@@ -507,7 +507,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
         <a class="lang-btn active" id="lang-ko" href="#" title="한국어">KO</a>
         <a class="lang-btn" id="lang-en" href="#" title="English">EN</a>
       </div>
-      <a class="nav-cta" href="https://github.com/ogunpig/ccv/releases/download/v2.5.0/Claude.Code.Visual.dmg" download>↓ 다운로드</a>
+      <a class="nav-cta" href="https://github.com/ogunpig/ccv/releases/download/v2.6.0/Claude.Code.Visual.dmg" download>↓ 다운로드</a>
     </div>
   </div>
 </nav>
@@ -517,7 +517,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
   <div class="hero-content">
     <div class="hero-chip">
       <span class="pulse"></span>
-      Claude Code Visual &nbsp;·&nbsp; v2.5.0
+      Claude Code Visual &nbsp;·&nbsp; v2.6.0
     </div>
     <h1 class="hero-h1">
       <span class="rl" style="--dl:0ms"><span data-i18n="hero_h1_1">클로드 코드,</span></span>
@@ -529,7 +529,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
       AI를 동료처럼 쓰는 가장 쉬운 방법이에요.
     </p>
     <div class="hero-ctas">
-      <a class="btn-g" href="https://github.com/ogunpig/ccv/releases/download/v2.5.0/Claude.Code.Visual.dmg" download data-i18n="hdl">↓ Mac 무료 다운로드</a>
+      <a class="btn-g" href="https://github.com/ogunpig/ccv/releases/download/v2.6.0/Claude.Code.Visual.dmg" download data-i18n="hdl">↓ Mac 무료 다운로드</a>
       <button class="btn-o" onclick="openChangelog()" data-i18n="hcl">업데이트 기록</button>
     </div>
     <div class="hero-shot rv d2">
@@ -830,7 +830,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
   <div class="wcta rv">
     <div class="ew" data-i18n="cew">지금 바로 시작하세요</div>
     <h2 data-i18n="ch2">AI를 동료처럼,<br>화면으로 만나보세요</h2>
-    <a class="wcta-btn" data-i18n="cdl" href="https://github.com/ogunpig/ccv/releases/download/v2.5.0/Claude.Code.Visual.dmg" download>↓ Mac 무료 다운로드</a>
+    <a class="wcta-btn" data-i18n="cdl" href="https://github.com/ogunpig/ccv/releases/download/v2.6.0/Claude.Code.Visual.dmg" download>↓ Mac 무료 다운로드</a>
   </div>
 </div>
 
@@ -957,6 +957,8 @@ addEventListener('load',function(){document.body.classList.add('loaded')});
 <!-- ── CHANGELOG JS ── -->
 <script>
 var CHANGELOG=[
+  {v:"2.6.0",tags:["feature"],notes:["다국어 지원 (10개 언어) — English·한국어·日本語·中文·Español·Português·Français·Deutsch·हिन्दी·Tiếng Việt. 설정 > 시스템 > 언어에서 변경, 첫 설치 시 Mac 언어로 자동 설정. (카드 내용 등 사용자 데이터는 원문 유지)","일일 리포트 — 매일 오전 9시 지난 24시간 Claude Code 작업을 자동 요약·분석(카드별 작업 + 토큰 낭비·비효율 지시 개선 팁 + 스킬·에이전트 승격 제안). 완료되면 오피스에 우체부 캐릭터가 나타나 '일일 리포트' 말풍선을 띄우고, 터치하면 리포트 팝업이 열립니다. 기본 설치 ON","버그제보 & 기능요청 — 설정 우측 상단 버튼으로 분류(버그/기능/기타)·내용·스크린샷·파일을 담아 개발자에게 바로 전달","통합 새로고침 + CCV 자동 업데이트 — 모델·엔진(claude)·앱 업데이트를 '새로고침' 한 번으로 점검. 앱 업데이트가 있으면 버튼이 활성화되어 눌러서 설치, 앱을 계속 켜둬도 주기적으로 감지","작업폴더 Finder 열기 — 사이드바 '작업폴더' 옆 📂 열기 버튼으로 현재 작업폴더를 Finder에서 바로 열기"]},
+  {v:"2.5.1",tags:["fix"],notes:["입력창 클릭·드래그 위치 오류 수정 — 글이 스크롤될 만큼 길어지면 클릭·드래그한 위치와 실제 커서·선택 위치가 아래로 밀리던 문제 해결. 원인은 넓은 textarea 규칙이 안 보이는 입력 레이어의 높이를 제한해 보이는 화면과 세로가 어긋난 것. 높이 제한을 무효화해 두 레이어를 정렬"]},
   {v:"2.5.0",tags:["improve"],notes:["LaTeX 수식 렌더링 지원 — KaTeX 엔진 탑재. 인라인 수식($...$)·블록 수식($$...$$) 모두 지원. 채팅·대화 기록·미리보기 패널 전체 적용. 데이터 분석·수학·과학 분야 수식 표현 가능"]},
   {v:"2.4.3",tags:["improve","fix"],notes:["입력 칩 렌더링 규칙 전면 개선 — @·#·/ 토큰은 드롭다운에서 명확히 선택(Tab·Enter·클릭)한 경우에만 칩으로 변환. 수동 입력·미선택 항목은 칩 생성 안 됨. /커맨드 선택 시 노란색 칩 추가. 커서 위치와 무관하게 텍스트 위치 고정(margin-right: -1.5px). @·#·/ 백스페이스 삭제 동작 통일(2회: 공백→칩). 다른 창 클릭 시 placeholder 끝 커서 깜빡임 제거"]},
   {v:"2.4.2",tags:["fix"],notes:["계정 변경 로그인 플로우 수정 — 인증 코드 붙여넣기가 적용되지 않던 문제 해결. CLI가 직접 브라우저를 열도록 변경(fake open 스크립트 제거), 코드 입력 시 PTY 대신 proc.stdin으로 안정적으로 전달. 브라우저 자동 실행 후 10초 내 코드 입력란 자동 표시"]},
