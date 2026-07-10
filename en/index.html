@@ -507,7 +507,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
         <a class="lang-btn active" id="lang-ko" href="#" title="한국어">KO</a>
         <a class="lang-btn" id="lang-en" href="#" title="English">EN</a>
       </div>
-      <a class="nav-cta" href="https://github.com/ogunpig/ccv/releases/download/v2.8.0/Claude.Code.Visual.dmg" download>↓ 다운로드</a>
+      <a class="nav-cta" href="https://github.com/ogunpig/ccv/releases/download/v2.8.1/Claude.Code.Visual.dmg" download>↓ 다운로드</a>
     </div>
   </div>
 </nav>
@@ -517,7 +517,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
   <div class="hero-content">
     <div class="hero-chip">
       <span class="pulse"></span>
-      Claude Code Visual &nbsp;·&nbsp; v2.8.0
+      Claude Code Visual &nbsp;·&nbsp; v2.8.1
     </div>
     <h1 class="hero-h1">
       <span class="rl" style="--dl:0ms"><span data-i18n="hero_h1_1">클로드 코드,</span></span>
@@ -529,7 +529,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
       AI를 동료처럼 쓰는 가장 쉬운 방법이에요.
     </p>
     <div class="hero-ctas">
-      <a class="btn-g" href="https://github.com/ogunpig/ccv/releases/download/v2.8.0/Claude.Code.Visual.dmg" download data-i18n="hdl">↓ Mac 무료 다운로드</a>
+      <a class="btn-g" href="https://github.com/ogunpig/ccv/releases/download/v2.8.1/Claude.Code.Visual.dmg" download data-i18n="hdl">↓ Mac 무료 다운로드</a>
       <button class="btn-o" onclick="openChangelog()" data-i18n="hcl">업데이트 기록</button>
     </div>
     <div class="hero-shot rv d2">
@@ -830,7 +830,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
   <div class="wcta rv">
     <div class="ew" data-i18n="cew">지금 바로 시작하세요</div>
     <h2 data-i18n="ch2">AI를 동료처럼,<br>화면으로 만나보세요</h2>
-    <a class="wcta-btn" data-i18n="cdl" href="https://github.com/ogunpig/ccv/releases/download/v2.8.0/Claude.Code.Visual.dmg" download>↓ Mac 무료 다운로드</a>
+    <a class="wcta-btn" data-i18n="cdl" href="https://github.com/ogunpig/ccv/releases/download/v2.8.1/Claude.Code.Visual.dmg" download>↓ Mac 무료 다운로드</a>
   </div>
 </div>
 
@@ -957,6 +957,7 @@ addEventListener('load',function(){document.body.classList.add('loaded')});
 <!-- ── CHANGELOG JS ── -->
 <script>
 var CHANGELOG=[
+  {v:"2.8.1",tags:["fix","improve"],notes:["커스텀 기능(다계정 등) 수정이 앱 업데이트로 제대로 반영되도록 개선 — 이전엔 이미 설치된 커스텀 기능의 코드가 업데이트돼도 옛 버전 그대로 남을 수 있었습니다. 2.8.1로 올리면 2.8.0의 다계정 '계정 드롭다운이 안 눌리던' 문제도 함께 해결됩니다","다계정 모드는 이제 기본 꺼짐으로 배포됩니다(필요하면 설정 > 커스텀 기능에서 켜세요). 이미 켜둔 분은 그대로 유지","계정을 전환하면 좌측 하단의 계정·조직 표시도 선택한 계정으로 함께 바뀝니다","질문(객관식) 화면 하단에서도 실행 계정을 고를 수 있습니다"]},
   {v:"2.8.0",tags:["feature","improve","fix"],notes:["다계정 모드 개선 — 좌측 하단에서 주계정을 바꾸면 앞으로 만들 카드·채팅은 물론, 아직 실행 안 한 대기 카드까지 새 계정을 따라갑니다. 이미 끝났거나 검토 중인 세션 카드도 다른 계정을 골라 이어가면 대화 기록이 그 계정으로 이관되어 맥락 그대로 이어집니다","일일 리포트 새 디자인 — 긴 스크롤 팝업을 6개 탭(요약·토큰효율·스킬·에이전트·더 챙기면 좋을 것·카드별 작업)으로 정리한 미니멀 UI로 개편. 리포트를 읽어도 우체부가 우측 하단에 앉아 대기하니 언제든 다시 열어볼 수 있습니다","백그라운드 위임 자동 이어받기 — 하위 에이전트에게 일을 맡기고 결과를 기다리다 끝나버리던 세션을 자동으로 이어받아 최종 결과물까지 완성합니다. 진행 중 카드에 상태 배지(🟢 작업 중 / 🟡 응답 없음 / 🔴 중단됨) 표시","파일 드래그&드랍 첨부 — Finder에서 파일을 발사대(메인·세션·채팅)로 끌어다 놓으면 바로 첨부됩니다","개인 비서(일감·타임라인) 후속 개선 — 타임라인에 오늘 열이 포함되고 현재 시각 마커 표시, 일감을 펼쳐 하위 세션 상세 열람, 완료·삭제해도 타임라인 이력 보존. 일감이 재기동마다 중복 생성되던 버그 수정","입력창 딱지(@·#·/) 개선 — 딱지 앞에 글자를 붙여도 깨지지 않고, 좌우 화살표로 딱지를 통째로 건너뜁니다(내부에 커서가 들어가 편집되던 문제 해결)"]},
   {v:"2.7.0",tags:["feature","fix"],notes:["개인 비서 — 업무를 '일감'과 '카테고리'로 관리합니다. 좌측 일감 패널에서 제목만 입력해 바로 추가하고, 일감을 골라 세션을 실행하면 그 일감의 제목·상세가 사전지식으로 자동 반영됩니다(상세에 붙인 @파일도 함께). 메인과 Chat 사이에 새 Timeline 탭이 생겨 카테고리→일감→세션을 시간 축 막대(실적 간트)로 한눈에 봅니다. 기존 Backlog 칸은 실행 없이 '일감'으로 자동 정리됩니다","다계정 모드 (새 커스텀 기능, 기본 꺼짐) — 여러 Claude 계정을 등록해 카드·채팅마다 실행할 계정을 고릅니다. 계정별로 로그인·MCP 연결·세션 기록이 완전히 분리되고, 계정 추가는 터미널 없이 GUI 로그인으로, 계정별 MCP 커넥터(노션 등)도 앱에서 바로 연결합니다. 계정마다 5시간 사용률도 표시","원격 접속 안정화 — 터널이 끊기면 자동으로 다시 연결하고, 겉으로만 살아 있는 '조용한 죽음'을 감지하면 강제 재시작합니다. 앱을 계속 켜둔 채로도 원격 접속이 유지되도록 개선","'토큰 한도 소진' 오표시 수정 — 사용량이 넉넉히 남아 있는데도 작업 결과 안에 특정 단어(rate limit 등)가 있으면 성공한 작업을 한도 소진으로 잘못 멈추던 문제를 고쳤습니다"]},
   {v:"2.6.1",tags:["new","fix"],notes:["DeepWork 커스텀 기능 신규 — 켜면 Claude Code에 /deepwork 스킬(Fable과 같은 구조로 생각하게 만들어주는 지시서)이 설치됩니다. 켜기/끄기와 함께 스킬도 설치·제거되고, 직접 만든 동명 스킬은 건드리지 않습니다. 기본 설치 ON","에이전트 관리 개선 — 랭킹(우수사원)에 내장/외부 뱃지 표시, 공용(모델 직접) 데스크의 이름·캐릭터·색을 Agents 탭에서 편집 가능","에이전트 버그 수정 3건 — 생성 시 고른 캐릭터가 저장되지 않던 문제, 전역·프로젝트 에이전트의 캐릭터·색·이름 변경이 반영되지 않던 문제, 에이전트 탭 X 동작을 '확인 후 삭제'로 통일(같은 이름 재생성 가능)","발사대 @파일 딱지 수정 — 공백이 들어간 파일 경로(예: [XP HERO] 쿠폰 시스템.pptx)도 선택하면 파란 딱지로 표시되고 백스페이스로 통째 삭제됩니다"]},
