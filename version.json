@@ -1,13 +1,10 @@
 {
-  "version": "2.11.0",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.11.0/Claude.Code.Visual.dmg",
+  "version": "2.12.0",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.0/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v2.11.0/Claude.Code.Visual.dmg",
-    "sha256": "b938229bec0cb5b648901e209c51d258048d77084e58846c0ec01f9009e2daa0"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.0/Claude.Code.Visual.dmg",
+    "sha256": "8f8753cdc33740f8e50d70b445153e9d3a140518f2363c683d67260136014079"
   },
-  "notes": [
-    "New Community tab — compete on level, country, and weekly-usage leaderboards, and watch online teammates roam the office world. Set a nickname and character on first visit.",
-    "Better Usage screen — limit checks now auto-retry when temporarily blocked, so you won't see a false 'limit reached'."
-  ],
-  "date": "2026-07-14"
+  "notes": [],
+  "date": "2026-07-15"
 }
