@@ -1,14 +1,13 @@
 {
-  "version": "2.10.1",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.10.1/Claude.Code.Visual.dmg",
+  "version": "2.11.0",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.11.0/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v2.10.1/Claude.Code.Visual.dmg",
-    "sha256": "81daebc1bdcef4b4578c2533d599eedaa12364314b9458e80bd6ca05f36846c6"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v2.11.0/Claude.Code.Visual.dmg",
+    "sha256": "b938229bec0cb5b648901e209c51d258048d77084e58846c0ec01f9009e2daa0"
   },
   "notes": [
-    "Assign a task right from a card — for cards without a task, click '＋ Task' next to the number to pick an existing task or create a new one on the spot",
-    "Rename a card directly — click the pen (✎) on a card or in the session view to edit its name inline, with no separate dialog",
-    "Cleaner session list — session cards now separate title and content at a glance, and scheduled tasks automatically split their label from the run details"
+    "New Community tab — compete on level, country, and weekly-usage leaderboards, and watch online teammates roam the office world. Set a nickname and character on first visit.",
+    "Better Usage screen — limit checks now auto-retry when temporarily blocked, so you won't see a false 'limit reached'."
   ],
   "date": "2026-07-14"
 }

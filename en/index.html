@@ -507,7 +507,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
         <a class="lang-btn active" id="lang-ko" href="#" title="한국어">KO</a>
         <a class="lang-btn" id="lang-en" href="#" title="English">EN</a>
       </div>
-      <a class="nav-cta" href="https://github.com/ogunpig/ccv/releases/download/v2.10.1/Claude.Code.Visual.dmg" download>↓ 다운로드</a>
+      <a class="nav-cta" href="https://github.com/ogunpig/ccv/releases/download/v2.11.0/Claude.Code.Visual.dmg" download>↓ 다운로드</a>
     </div>
   </div>
 </nav>
@@ -517,7 +517,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
   <div class="hero-content">
     <div class="hero-chip">
       <span class="pulse"></span>
-      Claude Code Visual &nbsp;·&nbsp; v2.10.1
+      Claude Code Visual &nbsp;·&nbsp; v2.11.0
     </div>
     <h1 class="hero-h1">
       <span class="rl" style="--dl:0ms"><span data-i18n="hero_h1_1">클로드 코드,</span></span>
@@ -529,7 +529,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
       AI를 동료처럼 쓰는 가장 쉬운 방법이에요.
     </p>
     <div class="hero-ctas">
-      <a class="btn-g" href="https://github.com/ogunpig/ccv/releases/download/v2.10.1/Claude.Code.Visual.dmg" download data-i18n="hdl">↓ Mac 무료 다운로드</a>
+      <a class="btn-g" href="https://github.com/ogunpig/ccv/releases/download/v2.11.0/Claude.Code.Visual.dmg" download data-i18n="hdl">↓ Mac 무료 다운로드</a>
       <button class="btn-o" onclick="openChangelog()" data-i18n="hcl">업데이트 기록</button>
     </div>
     <div class="hero-shot rv d2">
@@ -830,7 +830,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
   <div class="wcta rv">
     <div class="ew" data-i18n="cew">지금 바로 시작하세요</div>
     <h2 data-i18n="ch2">AI를 동료처럼,<br>화면으로 만나보세요</h2>
-    <a class="wcta-btn" data-i18n="cdl" href="https://github.com/ogunpig/ccv/releases/download/v2.10.1/Claude.Code.Visual.dmg" download>↓ Mac 무료 다운로드</a>
+    <a class="wcta-btn" data-i18n="cdl" href="https://github.com/ogunpig/ccv/releases/download/v2.11.0/Claude.Code.Visual.dmg" download>↓ Mac 무료 다운로드</a>
   </div>
 </div>
 
@@ -957,6 +957,7 @@ addEventListener('load',function(){document.body.classList.add('loaded')});
 <!-- ── CHANGELOG JS ── -->
 <script>
 var CHANGELOG=[
+  {v:"2.11.0",tags:["feature","improve"],notes:["커뮤니티 탭 신설 — 레벨·국가별·주간 사용량 랭킹을 다른 사용자와 겨루고, 접속 중인 동료들이 오피스 월드를 함께 돌아다녀요. 첫 진입 때 닉네임과 캐릭터를 정하세요.","사용량 화면 개선 — 한도 조회가 일시적으로 막혀도 자동으로 다시 시도해, 괜히 '한도 초과'처럼 보이던 문제를 없앴어요."]},
   {v:"2.10.1",tags:["feature","improve"],notes:["카드에서 바로 일감 배정 — 일감이 없는 카드는 번호 옆 '＋ 일감'을 눌러 기존 일감을 고르거나 '새 일감'으로 즉석에서 만들어 배정할 수 있습니다","카드 이름 직접 변경 — 카드나 세션 화면의 펜(✎) 버튼을 누르면 별도 창 없이 그 자리에서 바로 카드 이름을 고칠 수 있습니다","세션 목록 정리 — 세션 카드도 제목과 내용이 분리되어 한눈에 구분됩니다. 예약 작업도 이름과 실행 내용이 자동으로 나뉘어 표시됩니다"]},
   {v:"2.10.0",tags:["feature","improve","fix"],notes:["캐릭터 대확장 — 레벨 상한이 100에서 999로 늘고, 100레벨부터 랭크 티어(실버·골드·플래티넘·다이아·챌린저)에 따라 레벨 딱지 테두리가 점점 화려해집니다. 펫도 모든 눈을 통일하고 신규 3종(🐰토끼·🦁사자·🐲용)을 추가 — 레벨 200·300·500에서 해금됩니다","/goal 목표 기능 — 카드에 완료 조건을 걸어두면 그 조건이 충족될 때까지 claude가 스스로 반복 실행합니다. 실행 중에는 진행 턴 수와 판정 사유가 실시간으로 표시됩니다","업데이트 노트 인앱 팝업 — 버전별 변경 내역을 설정에서 바로 볼 수 있고, 새 버전이 나오면 노트와 함께 자동으로 안내합니다","자동 업데이트 — 업데이트 버튼 한 번으로 다운로드·검증·설치·재시작까지 자동으로 처리합니다(문제가 생기면 받은 파일 열기로 자동 후퇴)","Chat 탭이 가벼운 즉문즉답으로 — 규칙·메모리 없이 순수 대화 + 웹 검색만 사용하고, 대화는 저장하지 않습니다. 답변 도중 ⏹ 중지 버튼으로 취소할 수 있습니다","기본 언어를 영어로 + 전체 UI 영어화 — 어떤 언어로 바꿔도 미번역 문구는 한국어 대신 영어로 표시되고, 업데이트 노트도 UI 언어에 맞춰 나옵니다(10개 언어 지원)","일감·타임라인을 작업 폴더별로 저장 — 폴더를 바꾸면 그 폴더만의 업무 보드가 뜹니다","다계정 기본 계정 자동 고정 — 다른 앱에서 클로드 계정을 바꿔도 다계정 모드의 기본 계정은 그대로 유지됩니다","GPT 에이전트 Codex 원클릭 설치 — Codex가 없으면 버튼 한 번으로 자동 설치합니다(윈도우에서는 claude·codex를 Node.js 없이 네이티브로 설치)","사이드바 정리 — 아이콘을 재배치하고, 접힌 상태에서도 폴더·계정 전환 버튼을 상시 노출하며, 긴 작업폴더 경로는 …로 축약합니다","@파일 멘션 개선 — 파일명과 경로를 나눠 보여주고, 긴 경로에서 선택 표시가 잘리던 문제를 수정했습니다"]},
   {v:"2.9.0",tags:["feature","improve"],notes:["ChatGPT(Codex) 에이전트 — 에이전트를 OpenAI Codex(ChatGPT)로 전환해 실행하는 새 커스텀 기능(기본 꺼짐). 켜면 터미널 없이 브라우저로 ChatGPT 계정을 연동하고, 에이전트 만들 때 'ChatGPT 에이전트'를 체크하면 실무는 Codex가 처리하고 결과는 Claude가 회수합니다. 연결이 끊기면 자동으로 Claude(sonnet)로 폴백하고, 이미지 생성도 ChatGPT 구독 한도 안에서 처리됩니다(추가 요금 없음)","카드·세션 대화가 메신저형으로 — 화자별 오피스 캐릭터 아바타와 말풍선으로 표시되고 서브에이전트 발화도 구분됩니다. 중간 과정은 자동으로 접히고 결론만 펼쳐져 긴 세션도 한눈에 읽힙니다","폴더 변경이 최근 폴더 목록으로 — 최근 연 작업폴더(최대 5개)를 팝오버에서 딸깍 전환, '+ 폴더 추가'로 새 폴더 선택","일감 카드 버튼 정리 — '완료'·'삭제' 두 버튼을 '✓ 완료' 하나로 통합(과거 이력은 Timeline에 그대로 보존)","에이전트 프리셋이 기본 기능으로 승격 — 켜고 끌 필요 없이 항상 제공됩니다","일일 리포트 개선 — '바로실행'으로 카드를 만든 액션은 ✓ 표시가 유지되고 리포트를 다시 만들어도 이월됩니다"]},
