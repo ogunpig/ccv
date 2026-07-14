@@ -1,4 +1,22 @@
 {
-  "version": "2.9.0",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.9.0/Claude.Code.Visual.dmg"
+  "version": "2.10.0",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.10.0/Claude.Code.Visual.dmg",
+  "mac": {
+    "url": "https://github.com/ogunpig/ccv/releases/download/v2.10.0/Claude.Code.Visual.dmg",
+    "sha256": "b57aa546ca52af659e3c526a6d359eaab86f4dc768f7b6f2f7ae6daa98deff68"
+  },
+  "notes": [
+    "Bigger character progression — the level cap rises from 100 to 999, and from level 100 the level badge border grows fancier by rank tier (Silver, Gold, Platinum, Diamond, Challenger). Pets now share a unified eye style, plus 3 new pets (🐰 Rabbit, 🦁 Lion, 🐲 Dragon) unlocked at levels 200, 300, and 500",
+    "/goal — set a completion condition on a card and claude keeps running on its own until it's met. While it runs, you see the live turn count and the checker's reasoning",
+    "In-app update notes popup — browse each version's changes right from Settings, and when a new version ships you're notified along with its notes",
+    "One-click auto-update — a single button handles download, verification, install, and restart (falls back to opening the downloaded file if anything fails)",
+    "Lighter Chat tab — plain Q&A with no rules or memory, web search only, and nothing is saved. Cancel a reply mid-stream with the ⏹ Stop button",
+    "English as the default language + fully localized UI — in any language, untranslated text now falls back to English instead of Korean, and update notes follow your UI language (10 languages supported)",
+    "Per-folder tasks & timeline — switch folders and you get that folder's own work board",
+    "Multi-account default account auto-pinned — the default account in multi-account mode stays put even if you switch your Claude login in another app",
+    "One-click Codex install for the GPT agent — if Codex isn't installed, a single button installs it (on Windows, claude and codex install natively without Node.js)",
+    "Sidebar cleanup — icons rearranged, folder/account switch buttons always visible even when collapsed, and long working-folder paths are shortened with …",
+    "@file mention improvements — file name and path are shown separately, and fixed the selection highlight getting clipped on long paths"
+  ],
+  "date": "2026-07-14"
 }
