@@ -1,17 +1,14 @@
 {
-  "version": "2.12.2",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.2/Claude.Code.Visual.dmg",
+  "version": "2.12.3",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.3/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.2/Claude.Code.Visual.dmg",
-    "sha256": "6d139c8b6ce29f022caa17f1fd6058057861782e86f9845788a82cf497959439"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.3/Claude.Code.Visual.dmg",
+    "sha256": "8e9fe7589e81164cbaec634ca0d132182300d42d40c51270a3b9e5b22281b539"
   },
   "notes": [
-    "Token usage is way down — recurring rules and attachments are no longer re-read every turn.",
-    "The context gauge now reflects each model's real limit — no more impossible readings like 130%.",
-    "New 'Stay Awake' toggle in the Schedule tab — scheduled jobs keep running even with the laptop lid closed.",
-    "Custom-mode chats get their own window — finished features apply instantly with an automatic refresh.",
-    "Connect popular tools like Notion and Linear with one click from the Connected Assets tab.",
-    "Fixes: World faction-name translations, empty folders when linking an existing project, blurry display on Windows 4K, and more."
+    "Fixed confirmation dialogs and card labels showing in Korean when using English or other languages.",
+    "Fixed in-app update downloads failing — Windows now gets the correct installer, too.",
+    "Fixed being unable to sign in again on devices where the login had expired."
   ],
-  "date": "2026-07-15"
+  "date": "2026-07-16"
 }
