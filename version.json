@@ -1,13 +1,13 @@
 {
-  "version": "2.12.0",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.0/Claude.Code.Visual.dmg",
+  "version": "2.12.1",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.1/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.0/Claude.Code.Visual.dmg",
-    "sha256": "a60d3071c4de51bb7c9cf8b28e5e872a98c6582aed6518d9451b4b81f281ee80"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.1/Claude.Code.Visual.dmg",
+    "sha256": "c3cada0a642dce8eb408dc7e052f3d956afc66b818a97db2b1071b49ad2288e9"
   },
   "notes": [
-    "The Community tab is now World — pick a faction (Dog, Lion, Cat, Penguin, Rabbit, Robot) and claim the hex continent in your colors with your weekly usage. The winning faction and MVP get a hall-of-fame card all next season.",
-    "On first launch, the app language now matches your device's OS language automatically."
+    "Factions are now locked after your first choice — a faction-change pass is coming later.",
+    "Eliminated factions can rise again — they respawn at their home corner."
   ],
   "date": "2026-07-15"
 }
