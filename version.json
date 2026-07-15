@@ -1,13 +1,17 @@
 {
-  "version": "2.12.1",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.1/Claude.Code.Visual.dmg",
+  "version": "2.12.2",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.2/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.1/Claude.Code.Visual.dmg",
-    "sha256": "c3cada0a642dce8eb408dc7e052f3d956afc66b818a97db2b1071b49ad2288e9"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.2/Claude.Code.Visual.dmg",
+    "sha256": "6d139c8b6ce29f022caa17f1fd6058057861782e86f9845788a82cf497959439"
   },
   "notes": [
-    "Factions are now locked after your first choice — a faction-change pass is coming later.",
-    "Eliminated factions can rise again — they respawn at their home corner."
+    "Token usage is way down — recurring rules and attachments are no longer re-read every turn.",
+    "The context gauge now reflects each model's real limit — no more impossible readings like 130%.",
+    "New 'Stay Awake' toggle in the Schedule tab — scheduled jobs keep running even with the laptop lid closed.",
+    "Custom-mode chats get their own window — finished features apply instantly with an automatic refresh.",
+    "Connect popular tools like Notion and Linear with one click from the Connected Assets tab.",
+    "Fixes: World faction-name translations, empty folders when linking an existing project, blurry display on Windows 4K, and more."
   ],
   "date": "2026-07-15"
 }
