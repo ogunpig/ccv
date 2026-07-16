@@ -1,14 +1,12 @@
 {
-  "version": "2.12.4",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.4/Claude.Code.Visual.dmg",
+  "version": "2.12.5",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.5/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.4/Claude.Code.Visual.dmg",
-    "sha256": "cc124b8e69a819d5e1f43f1d35f8416ca5f2a3a6fc0aebc3c6f2f48ffbccc607"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.5/Claude.Code.Visual.dmg",
+    "sha256": "a345520f67e8eb4db086bcea64700aa1ee59677ce8cb31d9f34d6d4a715944aa"
   },
   "notes": [
-    "Translated every remaining Korean string in other languages — including office labels, confirmation dialogs, and card text.",
-    "Fixed auto-update not restarting the app after it closed — it now relaunches itself once the install finishes.",
-    "The update button in Settings now uses the same one-click auto-install as the notification."
+    "Translated the remaining composite strings with numbers and dates (process counts, question progress, usage calendar, plan labels, and more) in other languages."
   ],
   "date": "2026-07-16"
 }
