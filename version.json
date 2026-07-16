@@ -1,14 +1,14 @@
 {
-  "version": "2.12.3",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.3/Claude.Code.Visual.dmg",
+  "version": "2.12.4",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.4/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.3/Claude.Code.Visual.dmg",
-    "sha256": "8e9fe7589e81164cbaec634ca0d132182300d42d40c51270a3b9e5b22281b539"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.4/Claude.Code.Visual.dmg",
+    "sha256": "cc124b8e69a819d5e1f43f1d35f8416ca5f2a3a6fc0aebc3c6f2f48ffbccc607"
   },
   "notes": [
-    "Fixed confirmation dialogs and card labels showing in Korean when using English or other languages.",
-    "Fixed in-app update downloads failing — Windows now gets the correct installer, too.",
-    "Fixed being unable to sign in again on devices where the login had expired."
+    "Translated every remaining Korean string in other languages — including office labels, confirmation dialogs, and card text.",
+    "Fixed auto-update not restarting the app after it closed — it now relaunches itself once the install finishes.",
+    "The update button in Settings now uses the same one-click auto-install as the notification."
   ],
   "date": "2026-07-16"
 }
