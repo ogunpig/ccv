@@ -1,14 +1,13 @@
 {
-  "version": "2.12.6",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.6/Claude.Code.Visual.dmg",
+  "version": "2.12.7",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.7/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.6/Claude.Code.Visual.dmg",
-    "sha256": "bc79ae603e950860fe6b3808874a2d200a02734dd03a06a526f3b809d619908b"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.7/Claude.Code.Visual.dmg",
+    "sha256": "e0d4fc7acd028d8fd3b947abacdb60eed068454076a18f37a023cbbdc78d235f"
   },
   "notes": [
-    "Fixed older sessions appearing to vanish in the Sessions tab — turn off 'current folder only' to see sessions from other folders again.",
-    "Fixed screenshots being attached twice when pasted on Windows.",
-    "Fixed the remaining missing translations in other languages."
+    "Fixed the fixed remote address intermittently failing to open — the tunnel connection is now monitored and reconnects automatically when dropped.",
+    "Fixed Windows auto-update ending without installing — it now waits for the app to fully exit before installing."
   ],
   "date": "2026-07-16"
 }
