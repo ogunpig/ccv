@@ -1,14 +1,13 @@
 {
-  "version": "2.12.8",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.8/Claude.Code.Visual.dmg",
+  "version": "2.12.9",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.9/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.8/Claude.Code.Visual.dmg",
-    "sha256": "c923c363bacc2c73ef906c9bcb483e229f96fafb7d0e2273f8cf546334aaf6e2"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.9/Claude.Code.Visual.dmg",
+    "sha256": "fc3b7cdc9165fa4d53510ba2e28ccb5e35303af8c7953f4028300382a3ca84e8"
   },
   "notes": [
-    "Fixed some text still showing in Korean on non-Korean screens — update notes, remote access, and the premium badge.",
-    "Fixed the daily report schedule being registered in Korean — it now follows your display language.",
-    "Fixed the screen getting stuck on \"checking connection\" when turning on remote access — it now switches to on automatically once connected."
+    "Fixed the fixed remote address never turning on — premium remote access now connects properly.",
+    "Translated the remaining Korean text that still appeared on non-Korean screens."
   ],
   "date": "2026-07-17"
 }
