@@ -1,13 +1,14 @@
 {
-  "version": "2.12.7",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.7/Claude.Code.Visual.dmg",
+  "version": "2.12.8",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.8/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.7/Claude.Code.Visual.dmg",
-    "sha256": "e0d4fc7acd028d8fd3b947abacdb60eed068454076a18f37a023cbbdc78d235f"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.8/Claude.Code.Visual.dmg",
+    "sha256": "c923c363bacc2c73ef906c9bcb483e229f96fafb7d0e2273f8cf546334aaf6e2"
   },
   "notes": [
-    "Fixed the fixed remote address intermittently failing to open — the tunnel connection is now monitored and reconnects automatically when dropped.",
-    "Fixed Windows auto-update ending without installing — it now waits for the app to fully exit before installing."
+    "Fixed some text still showing in Korean on non-Korean screens — update notes, remote access, and the premium badge.",
+    "Fixed the daily report schedule being registered in Korean — it now follows your display language.",
+    "Fixed the screen getting stuck on \"checking connection\" when turning on remote access — it now switches to on automatically once connected."
   ],
-  "date": "2026-07-16"
+  "date": "2026-07-17"
 }
