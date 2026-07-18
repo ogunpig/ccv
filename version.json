@@ -1,13 +1,19 @@
 {
-  "version": "2.12.9",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v2.12.9/Claude.Code.Visual.dmg",
+  "version": "3.0.0",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v3.0.0/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v2.12.9/Claude.Code.Visual.dmg",
-    "sha256": "fc3b7cdc9165fa4d53510ba2e28ccb5e35303af8c7953f4028300382a3ca84e8"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v3.0.0/Claude.Code.Visual.dmg",
+    "sha256": "5e498fdaadea9bb748eebe17f6be80af6c05ea37f0e74a6cd5f82e89af7d5b2b"
   },
   "notes": [
-    "Fixed the fixed remote address never turning on — premium remote access now connects properly.",
-    "Translated the remaining Korean text that still appeared on non-Korean screens."
+    "🏠 3.0.0 \"Home & Cookie Economy\" — our biggest update!",
+    "Home: your own room where your pet lives — decorate with 40 furniture, 10 wallpapers & 10 floors",
+    "Cookie economy: earn cookies by working, buy eggs, hatch them over time, collect 20 pets (80 dex entries)",
+    "Today's Shop: 6 daily rotating slots + one free refresh per day",
+    "Season rewards: weekly cookies for faction MVPs & the winning faction (claim popup)",
+    "Show off: work-share poster cards & hatch trading cards for SNS",
+    "Profile cards: peek at other users' rooms from the rankings",
+    "First-run tutorial added"
   ],
-  "date": "2026-07-17"
+  "date": "2026-07-19"
 }
