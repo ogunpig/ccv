@@ -1,15 +1,17 @@
 {
-  "version": "3.0.1",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v3.0.1/Claude.Code.Visual.dmg",
+  "version": "3.1.0",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v3.1.0/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v3.0.1/Claude.Code.Visual.dmg",
-    "sha256": "ba3e6e789523abf79a8974cb749c1264bd807269eae97b2c72b01efe8f57fdd9"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v3.1.0/Claude.Code.Visual.dmg",
+    "sha256": "8e70a41e98dfd42962c4fd1cbc34f17751e96daf9a7daadd515502313c53be9f"
   },
   "notes": [
-    "6 cookie packs launched — top up cookies right from the shop.",
-    "Purchase thank-you popup — your balance updates instantly with a thank-you when a cookie purchase completes.",
-    "Purchase & premium security hardened — now verified directly by the server.",
-    "The World tab's first screen loads faster."
+    "World Plaza is open — stroll a live plaza with other players. Claim +50 cookies at the fountain every day!",
+    "Golden Statue & Hall of Fame — last season's winning MVP is immortalized in the plaza.",
+    "Visit friends' rooms & send ❤️ reactions in the plaza — plus a Top 3 popular rooms board.",
+    "Winner MVP perk — the winning MVP designs the next new pet (creator credit in the Codex).",
+    "Report tracking & cookie rewards — follow your report by ticket number and earn cookies when it ships.",
+    "Windows fixes — full-text copy, folder open, and Mac-specific wording resolved."
   ],
   "date": "2026-07-19"
 }
