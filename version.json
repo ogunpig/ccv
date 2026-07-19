@@ -1,17 +1,12 @@
 {
-  "version": "3.1.0",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v3.1.0/Claude.Code.Visual.dmg",
+  "version": "3.2.0",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v3.2.0/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v3.1.0/Claude.Code.Visual.dmg",
-    "sha256": "8e70a41e98dfd42962c4fd1cbc34f17751e96daf9a7daadd515502313c53be9f"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v3.2.0/Claude.Code.Visual.dmg",
+    "sha256": "4de53f23d6369742a2a0da9ab56debb34cc61d023df0ea3a6bc1bed3b0de23ef"
   },
   "notes": [
-    "World Plaza is open — stroll a live plaza with other players. Claim +50 cookies at the fountain every day!",
-    "Golden Statue & Hall of Fame — last season's winning MVP is immortalized in the plaza.",
-    "Visit friends' rooms & send ❤️ reactions in the plaza — plus a Top 3 popular rooms board.",
-    "Winner MVP perk — the winning MVP designs the next new pet (creator credit in the Codex).",
-    "Report tracking & cookie rewards — follow your report by ticket number and earn cookies when it ships.",
-    "Windows fixes — full-text copy, folder open, and Mac-specific wording resolved."
+    "New mini-game: Pet Shooting World Cup — tap the arcade machine in the Plaza to play! 5v5 flick soccer with your pet, live matches and a weekly ranking."
   ],
-  "date": "2026-07-19"
+  "date": "2026-07-20"
 }
