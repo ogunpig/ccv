@@ -507,7 +507,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
         <a class="lang-btn active" id="lang-ko" href="#" title="한국어">KO</a>
         <a class="lang-btn" id="lang-en" href="#" title="English">EN</a>
       </div>
-      <a class="nav-cta" href="https://github.com/ogunpig/ccv/releases/download/v3.2.1/Claude.Code.Visual.dmg" download>↓ 다운로드</a>
+      <a class="nav-cta" href="https://github.com/ogunpig/ccv/releases/download/v3.2.2/Claude.Code.Visual.dmg" download>↓ 다운로드</a>
     </div>
   </div>
 </nav>
@@ -517,7 +517,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
   <div class="hero-content">
     <div class="hero-chip">
       <span class="pulse"></span>
-      Claude Code Visual &nbsp;·&nbsp; v3.2.1
+      Claude Code Visual &nbsp;·&nbsp; v3.2.2
     </div>
     <h1 class="hero-h1">
       <span class="rl" style="--dl:0ms"><span data-i18n="hero_h1_1">클로드 코드,</span></span>
@@ -529,7 +529,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
       AI를 동료처럼 쓰는 가장 쉬운 방법이에요.
     </p>
     <div class="hero-ctas">
-      <a class="btn-g" href="https://github.com/ogunpig/ccv/releases/download/v3.2.1/Claude.Code.Visual.dmg" download data-i18n="hdl">↓ Mac 무료 다운로드</a>
+      <a class="btn-g" href="https://github.com/ogunpig/ccv/releases/download/v3.2.2/Claude.Code.Visual.dmg" download data-i18n="hdl">↓ Mac 무료 다운로드</a>
       <button class="btn-o" onclick="openChangelog()" data-i18n="hcl">업데이트 기록</button>
     </div>
     <div class="hero-shot rv d2">
@@ -830,7 +830,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
   <div class="wcta rv">
     <div class="ew" data-i18n="cew">지금 바로 시작하세요</div>
     <h2 data-i18n="ch2">AI를 동료처럼,<br>화면으로 만나보세요</h2>
-    <a class="wcta-btn" data-i18n="cdl" href="https://github.com/ogunpig/ccv/releases/download/v3.2.1/Claude.Code.Visual.dmg" download>↓ Mac 무료 다운로드</a>
+    <a class="wcta-btn" data-i18n="cdl" href="https://github.com/ogunpig/ccv/releases/download/v3.2.2/Claude.Code.Visual.dmg" download>↓ Mac 무료 다운로드</a>
   </div>
 </div>
 
@@ -957,6 +957,7 @@ addEventListener('load',function(){document.body.classList.add('loaded')});
 <!-- ── CHANGELOG JS ── -->
 <script>
 var CHANGELOG=[
+  {v:"3.2.2",tags:["fix","perf","feature"],notes:["윈도우에서 처음 설치 후 'Claude 로그인' 버튼을 눌러도 브라우저가 안 열리던 문제를 고쳤어요 — 이제 바로 로그인할 수 있어요.", "밖에서(폰) 원격 접속이 훨씬 빨라졌어요 — 화면 자산을 압축해 로딩 시간을 크게 줄였어요.", "안정성 대거 수정 — 에이전트가 가끔 안 뜨거나 여러 개 만들 때 일부가 사라지던 것, 긴 대화 카드가 '불러오는 중…'에서 멈추던 것, 서버 재시작 때 이미 끝난 카드가 실패로 찍히던 것을 고쳤어요.", "카드에 이 대화가 지금까지 얼마나 무거워졌는지 색으로 보여줘요 — 많이 쌓일수록 붉어져 새 대화로 넘길 때를 알 수 있어요.", "일감 카테고리를 ✕로 바로 지울 수 있고, 광장 아레나 주간 순위 오류도 바로잡았어요."]},
   {v:"3.2.1",tags:["feature","fix"],notes:["앱이 더 빨리 켜지고 레벨이 바로 떠요 — 처음 켤 때 느리던 계산을 캐시로 최적화했어요.", "광장이 더 자연스러워졌어요 — 캐릭터 걸음과 화면 확대를 개선하고 공원을 넓혔어요.", "Claude 응답이 더 읽기 쉬워졌어요 — 핵심을 먼저 강조하는 타이포로 다듬었어요.", "안정성 수정 — 에이전트를 한꺼번에 만들 때 출근이 누락되던 것, 이어가기 카드가 안 되던 것을 고쳤어요."]},
   {v:"3.2.0",tags:["feature","fix"],notes:["새 미니게임 「펫 슈팅 월드컵」 — 광장 게임기를 눌러 플레이! 내 펫으로 즐기는 5:5 플릭 축구, 실시간 대전과 주간 랭킹.", "레벨이 훨씬 빨리 떠요 — 마지막 레벨을 기억해 즉시 표시하고, 메인 화면이 가끔 비던 문제도 고쳤어요.", "광장·랭킹 다듬기 — 결과창/다시하기 버튼, 정확한 티어 표시, 리더보드 탭 유지."]},
   {v:"3.1.0",tags:["feature","fix"],notes:["World 광장 오픈 — 다른 유저들이 실시간으로 산책하는 광장이 열렸어요. 분수에서 매일 쿠키 +50!", "황금 동상·명예의 전당 — 지난 시즌 우승 MVP가 광장에 새겨져요.", "광장에서 친구 방 구경·❤️ 리액션 — 인기 방 TOP3 게시판까지.", "우승 MVP 특전 — 다음 신규 펫을 우승 MVP가 직접 정해요 (도감에 제작자 표기).", "제보 추적·쿠키 보상 — 접수번호로 처리 상태를 확인하고, 반영되면 쿠키를 받아요.", "윈도우 수정 — 전문 복사·폴더 열기·Mac 문구 문제 해결."]},

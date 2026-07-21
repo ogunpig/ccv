@@ -1,15 +1,16 @@
 {
-  "version": "3.2.1",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v3.2.1/Claude.Code.Visual.dmg",
+  "version": "3.2.2",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v3.2.2/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v3.2.1/Claude.Code.Visual.dmg",
-    "sha256": "5e429cda72c4eafea0f129e2f939d85339996b88dbc77d8903b996f3a313b943"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v3.2.2/Claude.Code.Visual.dmg",
+    "sha256": "5b5c192ec7fbaf142a235ae8b12d703397f2fd4501cf8e1fbf493a277eed89de"
   },
   "notes": [
-    "Faster startup — your level shows instantly. We cached the heavy first-launch calculation.",
-    "Smoother Plaza — improved character walking, zoomed-out view, and a bigger park.",
-    "Easier-to-read Claude replies — refined typography that highlights the key point first.",
-    "Stability fixes — agents no longer miss clocking in when created together, and 'continue' cards resume properly."
+    "Fixed a critical Windows issue where the 'Log in to Claude' button wouldn't open a browser on first launch — you can now sign in right away.",
+    "Much faster remote (mobile) access — we compressed screen assets to greatly cut loading time.",
+    "Many stability fixes — agents that sometimes didn't show up or went missing when created in bulk, conversation cards stuck on 'Loading…', and already-finished cards wrongly marked as failed after a server restart.",
+    "Your card now shows, in color, how heavy the conversation has grown — the more it builds up, the redder it gets, so you know when to start a fresh chat.",
+    "You can now delete task categories with an ✕, and we fixed the Arena weekly ranking order."
   ],
-  "date": "2026-07-20"
+  "date": "2026-07-22"
 }
