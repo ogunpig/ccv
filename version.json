@@ -1,10 +1,17 @@
 {
-  "version": "3.2.3",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v3.2.3/Claude.Code.Visual.dmg",
+  "version": "3.2.4",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v3.2.4/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v3.2.3/Claude.Code.Visual.dmg",
-    "sha256": "fc4ad95ea44b118e09a19660b8096d3ac458786cb0fad49a74f652be086e4a9d"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v3.2.4/Claude.Code.Visual.dmg",
+    "sha256": "865b4c5a9771739e7431f557ad197b6fe96817d331464f5701b55ce6a9e5750b"
   },
-  "notes": [],
-  "date": "2026-07-23"
+  "notes": [
+    "Light mode is here — choose Auto, Light or Dark in Settings.",
+    "Big token savings when you resume a conversation after a while — we now compact it once, right before resuming.",
+    "You can move your data folder to another drive (Settings > System) when C: runs low, pick a working folder on D: or any other drive, and choose the install location on Windows.",
+    "The desktop pet now follows your app language — no more Korean text on an English screen.",
+    "See which model is actually running — whether 'opus' is Opus 5 today — and pick an earlier version yourself. Usage now lives in one place in the header.",
+    "A loading screen when the app starts, plus fixes — invisible game popup text in light mode, an empty artifacts panel, and running cards that jumped to Done."
+  ],
+  "date": "2026-07-28"
 }

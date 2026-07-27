@@ -507,7 +507,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
         <a class="lang-btn active" id="lang-ko" href="#" title="한국어">KO</a>
         <a class="lang-btn" id="lang-en" href="#" title="English">EN</a>
       </div>
-      <a class="nav-cta" href="https://github.com/ogunpig/ccv/releases/download/v3.2.3/Claude.Code.Visual.dmg" download>↓ 다운로드</a>
+      <a class="nav-cta" href="https://github.com/ogunpig/ccv/releases/download/v3.2.4/Claude.Code.Visual.dmg" download>↓ 다운로드</a>
     </div>
   </div>
 </nav>
@@ -517,7 +517,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
   <div class="hero-content">
     <div class="hero-chip">
       <span class="pulse"></span>
-      Claude Code Visual &nbsp;·&nbsp; v3.2.3
+      Claude Code Visual &nbsp;·&nbsp; v3.2.4
     </div>
     <h1 class="hero-h1">
       <span class="rl" style="--dl:0ms"><span data-i18n="hero_h1_1">클로드 코드,</span></span>
@@ -529,7 +529,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
       AI를 동료처럼 쓰는 가장 쉬운 방법이에요.
     </p>
     <div class="hero-ctas">
-      <a class="btn-g" href="https://github.com/ogunpig/ccv/releases/download/v3.2.3/Claude.Code.Visual.dmg" download data-i18n="hdl">↓ Mac 무료 다운로드</a>
+      <a class="btn-g" href="https://github.com/ogunpig/ccv/releases/download/v3.2.4/Claude.Code.Visual.dmg" download data-i18n="hdl">↓ Mac 무료 다운로드</a>
       <button class="btn-o" onclick="openChangelog()" data-i18n="hcl">업데이트 기록</button>
     </div>
     <div class="hero-shot rv d2">
@@ -830,7 +830,7 @@ footer p{font-size:13px;color:var(--fgs);margin-top:10px;line-height:1.7}
   <div class="wcta rv">
     <div class="ew" data-i18n="cew">지금 바로 시작하세요</div>
     <h2 data-i18n="ch2">AI를 동료처럼,<br>화면으로 만나보세요</h2>
-    <a class="wcta-btn" data-i18n="cdl" href="https://github.com/ogunpig/ccv/releases/download/v3.2.3/Claude.Code.Visual.dmg" download>↓ Mac 무료 다운로드</a>
+    <a class="wcta-btn" data-i18n="cdl" href="https://github.com/ogunpig/ccv/releases/download/v3.2.4/Claude.Code.Visual.dmg" download>↓ Mac 무료 다운로드</a>
   </div>
 </div>
 
@@ -957,6 +957,7 @@ addEventListener('load',function(){document.body.classList.add('loaded')});
 <!-- ── CHANGELOG JS ── -->
 <script>
 var CHANGELOG=[
+  {v:"3.2.4",tags:["feature","fix"],notes:["라이트 모드가 생겼어요 — 설정에서 자동 / 라이트 / 다크를 고를 수 있어요.", "한참 뒤에 대화를 이어갈 때 토큰이 크게 절약돼요 — 이어가기 직전에 대화를 자동으로 한 번 정리해요.", "작업 폴더를 D 드라이브 등 홈 폴더 밖에서도 고를 수 있어요.", "데스크탑 펫이 앱 언어를 따라가요 — 영어 화면인데 펫만 한국어로 뜨던 문제를 고쳤어요.", "지금 어떤 모델이 붙는지 보여요 — 'opus'가 오늘 Opus 5인지 확인하고, 이전 버전도 직접 고를 수 있어요. 사용량은 헤더 한 곳에 모았어요.", "앱을 켤 때 로딩 화면이 뜨고, 여러 버그를 고쳤어요 — 라이트 모드에서 게임 팝업 글자가 안 보이던 것, 산출물 패널이 비어 있던 것, 진행 중인 카드가 완료로 넘어가던 것 등."]},
   {v:"3.2.3",tags:["fix"],notes:["긴 대화 카드가 '대화 불러오는 중…'에서 멈추던 문제를 뿌리째 고쳤어요 — 특히 윈도우에서 특정 대화가 영영 안 열리던 원인을 해결했어요."]},
   {v:"3.2.2",tags:["fix","perf","feature"],notes:["윈도우에서 처음 설치 후 'Claude 로그인' 버튼을 눌러도 브라우저가 안 열리던 문제를 고쳤어요 — 이제 바로 로그인할 수 있어요.", "밖에서(폰) 원격 접속이 훨씬 빨라졌어요 — 화면 자산을 압축해 로딩 시간을 크게 줄였어요.", "안정성 대거 수정 — 에이전트가 가끔 안 뜨거나 여러 개 만들 때 일부가 사라지던 것, 긴 대화 카드가 '불러오는 중…'에서 멈추던 것, 서버 재시작 때 이미 끝난 카드가 실패로 찍히던 것을 고쳤어요.", "카드에 이 대화가 지금까지 얼마나 무거워졌는지 색으로 보여줘요 — 많이 쌓일수록 붉어져 새 대화로 넘길 때를 알 수 있어요.", "일감 카테고리를 ✕로 바로 지울 수 있고, 광장 아레나 주간 순위 오류도 바로잡았어요."]},
   {v:"3.2.1",tags:["feature","fix"],notes:["앱이 더 빨리 켜지고 레벨이 바로 떠요 — 처음 켤 때 느리던 계산을 캐시로 최적화했어요.", "광장이 더 자연스러워졌어요 — 캐릭터 걸음과 화면 확대를 개선하고 공원을 넓혔어요.", "Claude 응답이 더 읽기 쉬워졌어요 — 핵심을 먼저 강조하는 타이포로 다듬었어요.", "안정성 수정 — 에이전트를 한꺼번에 만들 때 출근이 누락되던 것, 이어가기 카드가 안 되던 것을 고쳤어요."]},
