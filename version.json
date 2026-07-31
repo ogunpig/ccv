@@ -1,17 +1,17 @@
 {
-  "version": "3.2.4",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v3.2.4/Claude.Code.Visual.dmg",
+  "version": "3.2.5",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v3.2.5/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v3.2.4/Claude.Code.Visual.dmg",
-    "sha256": "865b4c5a9771739e7431f557ad197b6fe96817d331464f5701b55ce6a9e5750b"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v3.2.5/Claude.Code.Visual.dmg",
+    "sha256": "d72df357727107cddf5f88efc0b8dcc1fd27c035b99c301e5e574bb9ab1ea3a1"
   },
   "notes": [
-    "Light mode is here — choose Auto, Light or Dark in Settings.",
-    "Big token savings when you resume a conversation after a while — we now compact it once, right before resuming.",
-    "You can move your data folder to another drive (Settings > System) when C: runs low, pick a working folder on D: or any other drive, and choose the install location on Windows.",
-    "The desktop pet now follows your app language — no more Korean text on an English screen.",
-    "See which model is actually running — whether 'opus' is Opus 5 today — and pick an earlier version yourself. Usage now lives in one place in the header.",
-    "A loading screen when the app starts, plus fixes — invisible game popup text in light mode, an empty artifacts panel, and running cards that jumped to Done."
+    "Messages you send while a task is running now go through immediately — they stay in the conversation, and you have 8 seconds to cancel with ✕.",
+    "Approval buttons for sensitive files and API keys show up properly — you can hit [Apply] or [Save to vault] right on the card.",
+    "Move your working folder anywhere — the app detects the move and migrates your cards, conversations and agents in one step.",
+    "Usage readings are accurate again — we fixed a badge that drifted from your real usage, and hovering shows exactly when it resets. If your login drops, you can sign back in right there.",
+    "Failures name the real cause — no more '🪫 usage limit reached' when your limit is fine; you see the actual error (a server 500, for example).",
+    "Four emotes arrived in the Arena, and your opponent answers back. Guaranteed eggs can now roll higher grades, the share card's 'what I did today' no longer comes up empty, and pet quips went from 3 to 30."
   ],
-  "date": "2026-07-28"
+  "date": "2026-07-31"
 }
