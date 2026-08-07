@@ -1,17 +1,17 @@
 {
-  "version": "3.2.5",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v3.2.5/Claude.Code.Visual.dmg",
+  "version": "3.3.0",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v3.3.0/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v3.2.5/Claude.Code.Visual.dmg",
-    "sha256": "d72df357727107cddf5f88efc0b8dcc1fd27c035b99c301e5e574bb9ab1ea3a1"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v3.3.0/Claude.Code.Visual.dmg",
+    "sha256": "38720c7a00a31d42ddde6e54cd9a57dd32196475e3ccbd99080b504658c5a14f"
   },
   "notes": [
-    "Messages you send while a task is running now go through immediately — they stay in the conversation, and you have 8 seconds to cancel with ✕.",
-    "Approval buttons for sensitive files and API keys show up properly — you can hit [Apply] or [Save to vault] right on the card.",
-    "Move your working folder anywhere — the app detects the move and migrates your cards, conversations and agents in one step.",
-    "Usage readings are accurate again — we fixed a badge that drifted from your real usage, and hovering shows exactly when it resets. If your login drops, you can sign back in right there.",
-    "Failures name the real cause — no more '🪫 usage limit reached' when your limit is fine; you see the actual error (a server 500, for example).",
-    "Four emotes arrived in the Arena, and your opponent answers back. Guaranteed eggs can now roll higher grades, the share card's 'what I did today' no longer comes up empty, and pet quips went from 3 to 30."
+    "Follow-up work Claude suggests lands straight on your board as a card — it sits in Waiting and does nothing until you open it and hit [Start now].",
+    "Blow the conversation window up to full size — hit ⛶ at the top right of a card and it fills the window edge to edge.",
+    "Meet Super Mechanic, a new pet — an A-grade pet built from a request by the MVP of Season 3's winning faction.",
+    "Big attachments no longer freeze the app — oversized files are caught up front, and we fixed both the blue outline that stuck around blocking new questions and the app refusing to start afterwards.",
+    "Scheduled tasks run on time — they no longer wait for you to open that folder first.",
+    "Pasting a long message starts Chat properly now, and we also fixed conversations rendering entirely in italics, the 'Progress' section refusing to open, messages you sent mid-run showing up a second time at the end, and slash (/) command names getting cut off in narrow windows."
   ],
-  "date": "2026-07-31"
+  "date": "2026-08-07"
 }
