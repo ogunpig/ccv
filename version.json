@@ -1,16 +1,17 @@
 {
-  "version": "3.3.2",
-  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v3.3.2/Claude.Code.Visual.dmg",
+  "version": "3.3.3",
+  "dmg_url": "https://github.com/ogunpig/ccv/releases/download/v3.3.3/Claude.Code.Visual.dmg",
   "mac": {
-    "url": "https://github.com/ogunpig/ccv/releases/download/v3.3.2/Claude.Code.Visual.dmg",
-    "sha256": "5787d1b3686167263c68496a85557e238064d57463a7a9899d9e6e014bc81235"
+    "url": "https://github.com/ogunpig/ccv/releases/download/v3.3.3/Claude.Code.Visual.dmg",
+    "sha256": "88880affe7ffa596e2e209be9a81699994865bd861cc37cce256359762283c40"
   },
   "notes": [
-    "Meet Wolf, a new pet — an A-grade pet built from a request by the MVP of Season 5's winning faction.",
-    "Drag tasks into any order you like — pull the urgent ones to the top or move them to another group.",
-    "Edit a pending card before you start it — tweak the prompt or add a note before sending.",
-    "Fixed: on the sign-in screen, pressing [OK] after pasting the login code did nothing.",
-    "Also fixed: duplicate tabs piling up in the browser when your Mac starts, and HTML files missing from the artifacts list. Plus four Claude Design commands added to the slash (/) menu."
+    "Suggested follow-up tasks no longer pile up on their own — open a card and add just the ones you want with [+ Add to TO-DO].",
+    "You can delete tasks now — hit the ✕ in the task list on the left and it's gone.",
+    "Your Office level and activity grid no longer go backwards — old logs may get cleaned up, but what you've earned stays.",
+    "Fixed: with multiple accounts, everything done on the other accounts was missing — level, activity grid, usage, rankings and Sessions search now count it all.",
+    "Fixed: Sessions search only looked at the start of long conversations — it now searches the whole thing, and it got faster too.",
+    "Also fixed: a card that only ran a slash (/) command did nothing yet was marked “Done”, and the sign-in screen showed no version — you can now grab a new version before signing in."
   ],
-  "date": "2026-08-18"
+  "date": "2026-09-03"
 }
